@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run open && npm run watch",
     "start": "node server.js",
+    "open": "start http://localhost:3001",
+    "watch": "nodemon server.js",
     "lite-server": "lite-server"
   },
   "repository": {
@@ -23,5 +26,8 @@
     "express": "^4.17.1",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
