@@ -14,6 +14,11 @@ app.use(compression());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.use((req, res, next) => {
+    console.log(`path: ${req.path}`);
+    next();
+});
+
 app.use(express.static("public"));
 
 mongoose.connect(MONGODB_URI, {
