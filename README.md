@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
+-   [Description](#description)
+-   [Installation](#installation)
+-   [Usage](#usage)
+-   [Contributions](#contributions)
 
 ## Description
 
@@ -13,17 +13,18 @@ Progressive Web Application dedicated to budget tracking, allowing offline use a
 
 ## Installation
 
-- `git clone` this repository locally.
-- Run `npm i` to install all dependencies.
+-   `git clone` this repository locally.
+-   Run `npm i` to install all dependencies.
 
 ## Usage
 
-In the terminal input `npm start` or `node server.js` to initiate application.
+In the terminal input `mongod` to start the database, then `npm run start` to initiate application.
 
 ## Link
 
 [GitHub](https://github.com/CyanideTheJuggla/budget-tracker)
+[Heroku](https://dashboard.heroku.com/apps/budget-tracker-module19/logs)
 
-## Contributing
+## Contributions
 
-Made by [Scott Howell](https://github.com/cyanidethejuggla)
+[Scott Howell](https://github.com/cyanidethejuggla)
