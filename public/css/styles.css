@@ -28,6 +28,14 @@ tr:nth-child(even) {
     color: red;
 }
 
+.positive {
+    color: limegreen;
+}
+
+.negative {
+    color: crimson;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 825px;
