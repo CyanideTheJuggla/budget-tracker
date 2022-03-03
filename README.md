@@ -1,5 +1,7 @@
 # Budget Tracker
 
+<img src="./budget-tracker.PNG" style="width: 650px; height: auto" />
+
 ## Table of Contents
 
 -   [Description](#description)
