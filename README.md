@@ -25,7 +25,7 @@ In the terminal input `mongod` to start the database, then `npm run start` to in
 ## Link
 
 [GitHub](https://github.com/CyanideTheJuggla/budget-tracker)
-[Heroku](https://dashboard.heroku.com/apps/budget-tracker-module19/logs)
+[Heroku](https://budget-tracker-module19.herokuapp.com/)
 
 ## Contributions
 
